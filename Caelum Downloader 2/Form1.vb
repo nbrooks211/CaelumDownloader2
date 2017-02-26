@@ -5,6 +5,9 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Label1.Text = "your screwed"
+        If ProgressBar2.Value = 100 Then
+            Me.Close()
+        End If
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
