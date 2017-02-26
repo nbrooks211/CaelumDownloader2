@@ -1,4 +1,5 @@
-﻿Imports System
+﻿Imports System.Resources
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -8,17 +9,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Caelum Downloader 2")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Caelum Downloader 2")>
-<Assembly: AssemblyCopyright("Copyright ©  2017")>
+<Assembly: AssemblyTitle("Caelum downloader 2")>
+<Assembly: AssemblyDescription("The newest verson of the Caelum Downloader. This program allows the user to download the finest Caelum technology (its just a prank bro)")>
+<Assembly: AssemblyCompany("uf zombiemaniac")>
+<Assembly: AssemblyProduct("Caelum downloader 2")>
+<Assembly: AssemblyCopyright("Copyright © uf zombiemaniac 2017")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("ac360939-cdb1-4569-ba88-a1124cd8b7d7")>
+<Assembly: Guid("607b40a8-5e45-480d-a71d-7a00ebc54cd0")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +32,6 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.2.1.0")>
+<Assembly: AssemblyFileVersion("1.2.1.0")>
+<Assembly: NeutralResourcesLanguage("en-US")>
