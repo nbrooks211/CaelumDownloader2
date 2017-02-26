@@ -13,7 +13,7 @@
             Form1.Close()
         End If
         If TextBox1.Text = "help" Then
-            TextBox2.Text = "Help: help"
+            TextBox2.Text = "Commands: 'about' 'exit' 'close'"
         End If
 
     End Sub

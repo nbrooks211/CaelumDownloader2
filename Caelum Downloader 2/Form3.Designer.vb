@@ -57,8 +57,10 @@ Partial Class Form3
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
+        Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Both
         Me.TextBox2.Size = New System.Drawing.Size(332, 150)
         Me.TextBox2.TabIndex = 2
+        Me.TextBox2.WordWrap = False
         '
         'Form3
         '
