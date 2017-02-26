@@ -12,6 +12,10 @@
         If TextBox1.Text = "close" Then
             Form1.Close()
         End If
+        If TextBox1.Text = "help" Then
+            TextBox2.Text = "Help: help"
+        End If
 
     End Sub
+
 End Class
