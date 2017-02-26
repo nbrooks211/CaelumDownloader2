@@ -32,7 +32,7 @@
 
     Private Sub aboutbut_Click(sender As Object, e As EventArgs) Handles Aboutbut.Click
         If ProgressBar2.Value < 100 Then
-            Aboutbut.Text = "Fag"
+            Aboutbut.Text = "No"
         End If
         If ProgressBar2.Value = 100 Then
             Aboutbut.Text = "About"
