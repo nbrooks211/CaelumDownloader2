@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.FileSystemWatcher1 = New System.IO.FileSystemWatcher()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -37,6 +38,7 @@ Partial Class Form2
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.Saveasdown = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Contextteststrip = New System.Windows.Forms.ContextMenuStrip(Me.components)
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -96,7 +98,7 @@ Partial Class Form2
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(49, 284)
+        Me.Button3.Location = New System.Drawing.Point(13, 484)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(102, 29)
@@ -107,7 +109,7 @@ Partial Class Form2
         'Downdone
         '
         Me.Downdone.AutoSize = True
-        Me.Downdone.Location = New System.Drawing.Point(64, 317)
+        Me.Downdone.Location = New System.Drawing.Point(28, 517)
         Me.Downdone.Name = "Downdone"
         Me.Downdone.Size = New System.Drawing.Size(74, 20)
         Me.Downdone.TabIndex = 6
@@ -115,7 +117,7 @@ Partial Class Form2
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(186, 284)
+        Me.Button4.Location = New System.Drawing.Point(150, 484)
         Me.Button4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(138, 29)
@@ -126,7 +128,7 @@ Partial Class Form2
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(225, 317)
+        Me.Label3.Location = New System.Drawing.Point(189, 517)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(57, 20)
         Me.Label3.TabIndex = 8
@@ -134,7 +136,7 @@ Partial Class Form2
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(186, 341)
+        Me.Button5.Location = New System.Drawing.Point(150, 541)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(233, 29)
@@ -144,7 +146,7 @@ Partial Class Form2
         '
         'Saveasdown
         '
-        Me.Saveasdown.Location = New System.Drawing.Point(515, 284)
+        Me.Saveasdown.Location = New System.Drawing.Point(479, 484)
         Me.Saveasdown.Name = "Saveasdown"
         Me.Saveasdown.Size = New System.Drawing.Size(168, 29)
         Me.Saveasdown.TabIndex = 10
@@ -154,18 +156,25 @@ Partial Class Form2
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(531, 317)
+        Me.Label4.Location = New System.Drawing.Point(495, 517)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(70, 20)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Location"
+        '
+        'Contextteststrip
+        '
+        Me.Contextteststrip.ImageScalingSize = New System.Drawing.Size(24, 24)
+        Me.Contextteststrip.Name = "Contextteststrip"
+        Me.Contextteststrip.ShowImageMargin = False
+        Me.Contextteststrip.Size = New System.Drawing.Size(36, 4)
         '
         'Form2
         '
         Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(795, 541)
+        Me.ClientSize = New System.Drawing.Size(989, 595)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Saveasdown)
         Me.Controls.Add(Me.Button5)
@@ -178,7 +187,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form2"
         Me.Text = "Dev window"
@@ -203,4 +212,5 @@ Partial Class Form2
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
     Friend WithEvents Saveasdown As Button
     Friend WithEvents Label4 As Label
+    Friend WithEvents Contextteststrip As ContextMenuStrip
 End Class

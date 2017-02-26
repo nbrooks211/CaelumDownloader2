@@ -32,12 +32,7 @@ Partial Class Form1
         Me.ProgressBar2 = New System.Windows.Forms.ProgressBar()
         Me.Aboutbut = New System.Windows.Forms.Button()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
-        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConsoleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ProgressBar1
@@ -104,35 +99,9 @@ Partial Class Form1
         '
         'NotifyIcon1
         '
-        Me.NotifyIcon1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
         Me.NotifyIcon1.Text = "Caelum Downloader 2"
         Me.NotifyIcon1.Visible = True
-        '
-        'ContextMenuStrip1
-        '
-        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.ConsoleToolStripMenuItem, Me.ExitToolStripMenuItem})
-        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(162, 94)
-        '
-        'ToolStripMenuItem1
-        '
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(211, 30)
-        Me.ToolStripMenuItem1.Text = "About"
-        '
-        'ConsoleToolStripMenuItem
-        '
-        Me.ConsoleToolStripMenuItem.Name = "ConsoleToolStripMenuItem"
-        Me.ConsoleToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
-        Me.ConsoleToolStripMenuItem.Text = "Console"
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(211, 30)
-        Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'Form1
         '
@@ -152,7 +121,6 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Caelum Downloader 2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -166,8 +134,4 @@ Partial Class Form1
     Friend WithEvents ProgressBar2 As ProgressBar
     Friend WithEvents Aboutbut As Button
     Friend WithEvents NotifyIcon1 As NotifyIcon
-    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents ConsoleToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
 End Class

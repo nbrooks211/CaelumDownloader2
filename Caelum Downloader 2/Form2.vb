@@ -49,4 +49,8 @@
             Label4.Text = SaveFileDialog1.FileName
         End If
     End Sub
+
+    Private Sub Contextmenubut_Click(sender As Object, e As EventArgs)
+        Contextteststrip.Show()
+    End Sub
 End Class
