@@ -39,15 +39,15 @@
         End If
     End Sub
 
-    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ExitToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
         Me.Close()
     End Sub
 
-    Private Sub ConsoleToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ConsoleToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles ConsoleToolStripMenuItem.Click
         Form3.Show()
     End Sub
 
-    Private Sub ToolStripMenuItem1_Click(sender As Object, e As EventArgs)
+    Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
         AboutBox1.Show()
     End Sub
 End Class
