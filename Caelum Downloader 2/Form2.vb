@@ -38,4 +38,15 @@
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         My.Computer.Network.DownloadFile("https://qtechofficial.com/cancer.txt", FolderBrowserDialog1.SelectedPath() & "\cyberbully.txt")
     End Sub
+
+    Private Sub Saveasdown_Click(sender As Object, e As EventArgs) Handles Saveasdown.Click
+        SaveFileDialog1.ShowDialog()
+        SaveFileDialog1.Title = "Download To"
+        If SaveFileDialog1.FileName = "" Then
+            Label4.Text = "you need stuff"
+        Else
+            My.Computer.Network.DownloadFile("https://qtechofficial.com/cancer.txt", SaveFileDialog1.FileName)
+            Label4.Text = SaveFileDialog1.FileName
+        End If
+    End Sub
 End Class

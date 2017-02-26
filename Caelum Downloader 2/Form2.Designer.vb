@@ -34,6 +34,9 @@ Partial Class Form2
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.Saveasdown = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -93,7 +96,7 @@ Partial Class Form2
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(328, 281)
+        Me.Button3.Location = New System.Drawing.Point(49, 284)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(102, 29)
@@ -104,7 +107,7 @@ Partial Class Form2
         'Downdone
         '
         Me.Downdone.AutoSize = True
-        Me.Downdone.Location = New System.Drawing.Point(343, 314)
+        Me.Downdone.Location = New System.Drawing.Point(64, 317)
         Me.Downdone.Name = "Downdone"
         Me.Downdone.Size = New System.Drawing.Size(74, 20)
         Me.Downdone.TabIndex = 6
@@ -112,7 +115,7 @@ Partial Class Form2
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(465, 281)
+        Me.Button4.Location = New System.Drawing.Point(186, 284)
         Me.Button4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(138, 29)
@@ -123,7 +126,7 @@ Partial Class Form2
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(504, 314)
+        Me.Label3.Location = New System.Drawing.Point(225, 317)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(57, 20)
         Me.Label3.TabIndex = 8
@@ -131,7 +134,7 @@ Partial Class Form2
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(346, 389)
+        Me.Button5.Location = New System.Drawing.Point(186, 341)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(233, 29)
@@ -139,12 +142,32 @@ Partial Class Form2
         Me.Button5.Text = "Download Txt from qtech"
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'Saveasdown
+        '
+        Me.Saveasdown.Location = New System.Drawing.Point(515, 284)
+        Me.Saveasdown.Name = "Saveasdown"
+        Me.Saveasdown.Size = New System.Drawing.Size(168, 29)
+        Me.Saveasdown.TabIndex = 10
+        Me.Saveasdown.Text = "Saveas download"
+        Me.Saveasdown.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(531, 317)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(70, 20)
+        Me.Label4.TabIndex = 11
+        Me.Label4.Text = "Location"
+        '
         'Form2
         '
         Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(795, 541)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Saveasdown)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button4)
@@ -177,4 +200,7 @@ Partial Class Form2
     Friend WithEvents Button4 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Button5 As Button
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents Saveasdown As Button
+    Friend WithEvents Label4 As Label
 End Class
