@@ -12,8 +12,8 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        If TextBox1.Text() = "fagget" Then
-            Label1.Text = "nigger"
+        If TextBox1.Text() = "stragget" Then
+            Label1.Text = "surface"
         End If
     End Sub
 
@@ -22,7 +22,7 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        My.Computer.Network.DownloadFile("https://dl.dropboxusercontent.com/u/17161880/1Y02052.JPG", "C:\cancer\cancer.jpg")
+        My.Computer.Network.DownloadFile("https://dl.dropboxusercontent.com/u/17161880/1Y02052.JPG", "C:\cyberbully\cyberbully.jpg")
         Downdone.Text = "Done"
     End Sub
 
@@ -32,10 +32,10 @@
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         Label3.Text = FolderBrowserDialog1.SelectedPath()
-        My.Computer.Network.DownloadFile("https://dl.dropboxusercontent.com/u/17161880/1Y02052.JPG", FolderBrowserDialog1.SelectedPath() & "\cancer.jpg")
+        My.Computer.Network.DownloadFile("https://dl.dropboxusercontent.com/u/17161880/1Y02052.JPG", FolderBrowserDialog1.SelectedPath() & "\cyberbully.jpg")
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        My.Computer.Network.DownloadFile("https://qtechofficial.com/cancer.txt", FolderBrowserDialog1.SelectedPath() & "\cancer.txt")
+        My.Computer.Network.DownloadFile("https://qtechofficial.com/cancer.txt", FolderBrowserDialog1.SelectedPath() & "\cyberbully.txt")
     End Sub
 End Class
