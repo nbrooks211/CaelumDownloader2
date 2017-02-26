@@ -26,10 +26,6 @@
         End If
     End Sub
 
-    Private Sub ProgressBar2_Click(sender As Object, e As EventArgs) Handles ProgressBar2.Click
-        Form3.Show()
-    End Sub
-
     Private Sub aboutbut_Click(sender As Object, e As EventArgs) Handles Aboutbut.Click
         If ProgressBar2.Value < 100 Then
             Aboutbut.Text = "No"
@@ -40,4 +36,15 @@
         End If
     End Sub
 
+    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
+        Me.Close()
+    End Sub
+
+    Private Sub ConsoleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsoleToolStripMenuItem.Click
+        Form3.Show()
+    End Sub
+
+    Private Sub ToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem1.Click
+        AboutBox1.Show()
+    End Sub
 End Class

@@ -29,9 +29,10 @@ Partial Class Form3
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(190, 12)
+        Me.Button1.Location = New System.Drawing.Point(260, 15)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(84, 29)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Submit"
         Me.Button1.UseVisualStyleBackColor = True
@@ -40,18 +41,20 @@ Partial Class Form3
         '
         Me.TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(12, 13)
+        Me.TextBox1.Location = New System.Drawing.Point(14, 16)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(172, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(239, 26)
         Me.TextBox1.TabIndex = 1
         '
         'Form3
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(277, 47)
+        Me.ClientSize = New System.Drawing.Size(358, 59)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form3"
         Me.Text = "Console"
         Me.ResumeLayout(False)

@@ -39,9 +39,10 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 12)
+        Me.Button1.Location = New System.Drawing.Point(14, 15)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(99, 30)
+        Me.Button1.Size = New System.Drawing.Size(111, 38)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "About us"
         Me.Button1.UseVisualStyleBackColor = True
@@ -53,46 +54,49 @@ Partial Class Form2
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 48)
+        Me.TextBox1.Location = New System.Drawing.Point(14, 60)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(142, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(159, 26)
         Me.TextBox1.TabIndex = 1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(160, 48)
+        Me.Button2.Location = New System.Drawing.Point(180, 60)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 26)
+        Me.Button2.Size = New System.Drawing.Size(84, 32)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Fag"
+        Me.Button2.Text = "Submit"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(385, 56)
+        Me.Label1.Location = New System.Drawing.Point(433, 70)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 17)
+        Me.Label1.Size = New System.Drawing.Size(71, 20)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Fagget"
+        Me.Label1.Text = "Stragget"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 73)
+        Me.Label2.Location = New System.Drawing.Point(14, 91)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(99, 17)
+        Me.Label2.Size = New System.Drawing.Size(122, 20)
         Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Type in fagget"
+        Me.Label2.Text = "Type in stragget"
         '
         'FolderBrowserDialog1
         '
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(292, 225)
+        Me.Button3.Location = New System.Drawing.Point(328, 281)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(91, 23)
+        Me.Button3.Size = New System.Drawing.Size(102, 29)
         Me.Button3.TabIndex = 5
         Me.Button3.Text = "Download"
         Me.Button3.UseVisualStyleBackColor = True
@@ -100,17 +104,18 @@ Partial Class Form2
         'Downdone
         '
         Me.Downdone.AutoSize = True
-        Me.Downdone.Location = New System.Drawing.Point(305, 251)
+        Me.Downdone.Location = New System.Drawing.Point(343, 314)
         Me.Downdone.Name = "Downdone"
-        Me.Downdone.Size = New System.Drawing.Size(66, 17)
+        Me.Downdone.Size = New System.Drawing.Size(74, 20)
         Me.Downdone.TabIndex = 6
         Me.Downdone.Text = "Not done"
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(413, 225)
+        Me.Button4.Location = New System.Drawing.Point(465, 281)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(123, 23)
+        Me.Button4.Size = New System.Drawing.Size(138, 29)
         Me.Button4.TabIndex = 7
         Me.Button4.Text = "Download to"
         Me.Button4.UseVisualStyleBackColor = True
@@ -118,17 +123,18 @@ Partial Class Form2
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(448, 251)
+        Me.Label3.Location = New System.Drawing.Point(504, 314)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(51, 17)
+        Me.Label3.Size = New System.Drawing.Size(57, 20)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Label3"
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(308, 311)
+        Me.Button5.Location = New System.Drawing.Point(346, 389)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(207, 23)
+        Me.Button5.Size = New System.Drawing.Size(233, 29)
         Me.Button5.TabIndex = 9
         Me.Button5.Text = "Download Txt from qtech"
         Me.Button5.UseVisualStyleBackColor = True
@@ -136,9 +142,9 @@ Partial Class Form2
         'Form2
         '
         Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(707, 433)
+        Me.ClientSize = New System.Drawing.Size(795, 541)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button4)
@@ -150,6 +156,7 @@ Partial Class Form2
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form2"
         Me.Text = "Dev window"
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).EndInit()

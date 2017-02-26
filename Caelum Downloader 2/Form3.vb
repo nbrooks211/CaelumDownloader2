@@ -6,5 +6,12 @@
         If TextBox1.Text = "about" Then
             AboutBox1.Show()
         End If
+        If TextBox1.Text = "exit" Then
+            Form1.Close()
+        End If
+        If TextBox1.Text = "close" Then
+            Form1.Close()
+        End If
+
     End Sub
 End Class
